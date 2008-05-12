@@ -1,0 +1,60 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN"
+	"http://www.w3.org/TR/html4/strict.dtd">
+<html lang="en">
+	<head>
+		<meta http-equiv="Content-type" content="text/html; charset=utf-8">
+		<title>Form Examples - TooEasy Interface Toolbox</title>
+	</head>
+	<body>
+		<form action="forms_submit" method="post" accept-charset="utf-8">
+			<div>
+				<label for="email">Email address</label>
+				<input id="email" type="text">
+				<p>Note: Your email is your username. Use a valid email address.</p>
+			</div>
+			<div>
+				<label for="password">Password</label>
+				<input id="password" type="password">
+			</div>
+			<div>
+				<label for="password_confirmation">Re-enter password</label>
+				<input id="password_confirmation" type="password">
+				<p>We're sorry, your passwords did not match. Please confirm your password and try again.</p>
+			</div>
+			<div>
+				<fieldset>
+					<legend><span>Gender</span></legend>
+					<input name="gender" id="male" type="radio" checked>
+					<label for="male">Male</label>
+					<input name="gender" id="female" type="radio">
+					<label for="female">Female</label>
+				</fieldset>
+			</div>
+			<div>
+				<label for="attributes">Skills and interests</label>
+				<textarea id="attributes" rows="6" cols="10"></textarea>
+				<p>Separate your skills and interests with commas.</p>
+			</div>
+			<div>
+				<fieldset>
+					<legend>Birthdate</legend>
+					<label for="day">Day</label>
+					<select id="day">
+						<option>01</option>
+					</select>
+					<label for="month">Month</label>
+					<select id="month">
+						<option>January</option>
+					</select>
+					<label for="year">Year</label>
+					<select id="year">
+						<option>1995</option>
+					</select>
+				</fieldset>
+			</div>
+			<div class="finish">
+				<input type="submit" value="Save and continue"> or <a href="http://google.com/">cancel and go back</a>
+			</div>
+		</form>
+	</body>
+</html>
