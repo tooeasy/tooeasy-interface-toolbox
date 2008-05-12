@@ -26,6 +26,7 @@ fieldset label { float: none; font-weight: normal; margin-right: 0; text-align: 
 /* firefox */
 html:not([lang*=""]) fieldset { position: relative; padding-left: 35%; }
 html:not([lang*=""]) legend span { display: block; position: absolute; top: 0; left: -37%; width: 35%; }
+html:not([lang*=""]) input[type="radio"] { vertical-align: text-bottom; }
 
 input, textarea { font-family: inherit; font-size: inherit; }
 input[type="text"], input[type="password"], textarea { width: 60%; }
