@@ -21,7 +21,7 @@ label, legend {
 	width: 33%;
 }
 /* Remove the label styling when inside a fieldset */
-fieldset label { float: none; font-weight: normal; text-align: left; }
+fieldset label { float: none; font-weight: normal; margin-right: 0; text-align: left; }
 
 input, textarea { font-family: inherit; font-size: inherit; }
 
