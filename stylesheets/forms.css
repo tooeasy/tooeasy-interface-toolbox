@@ -1,0 +1,39 @@
+
+/* prettifying styles */
+body { font: 12px/1.5 "Lucida Grande", "Trebuchet MS", Verdana, sans-serif; }
+form { margin: 40px; width: 470px; }
+/* end */
+
+/* The only value which might need changing depending on website font size is the line-height on labels and legends */
+
+form div {
+	clear: left;
+	overflow: hidden;
+	padding: 5px 0;
+}
+
+label, legend {
+	float: left;
+	font-weight: bold;
+	line-height: 24px;
+	margin-right: 2%;
+	text-align: right;
+	width: 33%;
+}
+/* Remove the label styling when inside a fieldset */
+fieldset label { float: none; font-weight: normal; text-align: left; }
+
+input, textarea { font-family: inherit; font-size: inherit; }
+
+input[type="text"], input[type="password"], textarea { width: 60%; }
+
+form p {
+	font-size: 11px;
+	line-height: 1.3;
+	margin: 3px 0 0 35%;
+}
+
+.finish {
+	background: #ccc;
+	padding-left: 35%;
+}
