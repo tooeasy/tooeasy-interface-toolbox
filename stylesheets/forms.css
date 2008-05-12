@@ -51,3 +51,4 @@ form p {
 	padding-left: 35%;
 }
 * html .finish { padding-left: 15%; }
+.finish input { overflow: visible; width: auto; } /* fixes IE's weird styling on buttons */
