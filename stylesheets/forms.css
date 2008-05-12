@@ -8,12 +8,13 @@ form { margin: 40px; width: 470px; }
 
 form div {
 	clear: left;
+	margin: 3px 0;
 	overflow: hidden;
 	padding: 5px 0;
 }
 form .error { background: #fcc; }
 form .highlight { background: #ffc; }
-form .success { background: ; }
+form .success { background: #9fa; }
 
 label, legend {
 	float: left;
@@ -52,7 +53,7 @@ form p {
 	margin: 3px 0 0 35%;
 }
 * html form p { margin-left: 39%; }
-form .error p { color: #111; }
+form .error p, form .highlight p, form .success p { color: #111; }
 
 .finish {
 	background: #ccc;
